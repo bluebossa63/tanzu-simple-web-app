@@ -21,7 +21,7 @@ class HelloControllerTest {
 
     @Test
     void index() throws Exception {
-        assertEquals("Hello from Tanzu Community Edition Application Toolkit for SDDC^2!", controller.index());
+        assertEquals("Hello from Tanzu Community Edition Application Toolkit for SDDC^2!!!", controller.index());
 
         mockMvc
             .perform(get("/"))
